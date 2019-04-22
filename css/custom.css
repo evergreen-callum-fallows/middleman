@@ -57,7 +57,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 .preview-button {
-	background: #789ECF;
+	background: #EAFBFA;
 	padding: 11px 25px;
 	color: #fff;
 }
@@ -75,7 +75,7 @@
 }
 hr {
 	width: 8%;
-	border: 2px solid #789ECF;
+	border: 2px solid #EAFBFA;
 	}
 
 /*------ Features ------*/
@@ -138,7 +138,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	color: #666;
+	color: #636363;
 	overflow-x: hidden;
 }
 h1 {
@@ -188,7 +188,7 @@ h6 {
 
 /*---- Bg colors -----*/
 .bg-blue {
-	background: #edf5ff!important;
+	background: #EAFBFA!important;
 }
 .bg-white {
 	background: #fff;
@@ -214,12 +214,12 @@ h6 {
 	color: #edf5ff;
 }
 .blue {
-	color: #789ECF; 
+	color: #EAFBFA; 
 }
 
 /*------ Buttons -------*/
 .btn-blue {
-	background: #789ECF;
+	background: #EAFBFA;
 	color: #fff!important;
 	outline: none;
 }
@@ -349,6 +349,7 @@ h6 {
 .info {
 	padding-left: 15px;
 }
+
 .info li {
     display: inline;
     margin-right: 20px;
@@ -375,6 +376,18 @@ h6 {
     font-size: 18px;
 }
 
+.logo--main {
+  max-width: 340px;
+}
+
+.logo--sticky {
+  max-width: 250px;
+}
+
+.logo--footer {
+  max-width: 340px;
+}
+
 /* ============================
        END OF TOP HEADER 
  ============================= */
@@ -391,7 +404,7 @@ h6 {
 .navbar-clasic .navbar-nav .nav-link {
 	font-size: 17px;
 	font-family: 'Poppins', sans-serif;
-	color: #666;
+	color: #636363;
 	font-weight: 500;
 	padding: 12px;
 	margin-top: 5px;
@@ -405,7 +418,7 @@ h6 {
 	-o-transition:all 0.3s ease;
 }
 .navbar-clasic .nav-item a.download-list {
-    background-color: #789ECF;
+    background-color: #EAFBFA;
     color: #fff;
     padding: 10px 27px;
     margin-left: 10px;
@@ -413,7 +426,7 @@ h6 {
 	top: 16px;
 }
 .navbar-sticky .nav-item a.download-list {
-    background-color: #789ECF;
+    background-color: #EAFBFA;
     color: #fff;
     padding: 10px 27px;
     margin-left: 10px;
@@ -421,7 +434,7 @@ h6 {
 	top: 16px;
 }
 .navbar-clasic .nav-help .nav-item a.btn-form {
-    background-color: #789ECF;
+    background-color: #EAFBFA;
     color: #fff;
     padding: 9px 21px;
     margin-left: 12px;
@@ -464,7 +477,7 @@ h6 {
 	-o-transition:all 0.3s ease;
 }
 .navbar-sticky .nav-help .nav-item a.btn-form {
-    background-color: #789ECF;
+    background-color: #EAFBFA;
     color: #fff;
     padding: 9px 21px;
     margin-left: 12px;
@@ -496,7 +509,7 @@ h6 {
 	-o-transition:all 0.3s ease;
 }
 .navbar-transparent .nav-help .nav-item a.btn-form {
-    background-color: #789ECF;
+    background-color: #EAFBFA;
     color: #fff;
     padding: 9px 21px;
     margin-left: 12px;
@@ -548,18 +561,11 @@ h6 {
 	overflow: hidden;
 }
 .features-box {
-	border-left: px solid #789ECF;
 	padding: 17px 17px;
 	display: inline-block;
 	-webkit-box-shadow: 6px 7px 36px 3px rgba(136,136,136,0.14);
 	-moz-box-shadow: 6px 7px 36px 3px rgba(136,136,136,0.14);
 	box-shadow: 6px 7px 36px 3px rgba(136,136,136,0.14);
-}
-.features-box img {
-	width: 30%;
-}
-.features-content {
-    padding-left: 130px;
 }
 .features-content h6 {
     font-size: 21px;
@@ -573,8 +579,7 @@ h6 {
 	margin-left: 12px;
 }
 .feature-content-2 {
-	padding: 17px;
-	padding-bottom: 0;
+  padding: 17px 17px 0;
 }
 .feature-content-2 img {
 	width: 70%;
@@ -649,7 +654,7 @@ h6 {
  ============================= */
 .video-advert i {
 	font-size: 68px;
-	color: #789ECF;
+	color: #EAFBFA;
 	z-index: 999;
 }
 .video-advert h6 {
@@ -721,18 +726,18 @@ h6 {
     position: absolute;
     top: 20px;
     width: 20px;
-    background-color: #789ECF;
+    background-color: #EAFBFA;
     z-index: 1;
 }
 
 .work_process .work_box .work_left::after {
     right: -45px;
-    background-color: #789ECF;
+    background-color: #EAFBFA;
 }
 
 .work_process .work_box .work_right::after {
     left: -45px;
-    background-color: #789ECF;
+    background-color: #EAFBFA;
 }
 
 .work_process .work_box .work_detail_right {
@@ -770,7 +775,7 @@ h6 {
 .work_number h5 {
     font-size: 26px !important;    
     color: #fff;
-    background-color: #789ECF;
+    background-color: #EAFBFA;
     display: inline-block;
     text-align: center;
     width: 48px;
@@ -904,7 +909,7 @@ h6 {
  ============================= */
 .process-box {
 	width: 90%;
-	border-left: px solid #789ECF;
+	border-left: 3px;
 	padding: 17px 17px;
 	display: inline-block;
 	margin-top: 35px;
@@ -983,6 +988,12 @@ h6 {
     float: right;
 	margin-top: 3px;
 }
+
+.img--faq {
+  max-width: 340px !important;
+  margin: 40px auto !important;
+  display: block;
+}
 /* ============================
          END OF FAQ
  ============================= */
@@ -1008,20 +1019,24 @@ h6 {
     height: 48px;
 	margin: auto;
     position: relative;
-    width: 65%;
 	border-radius: 2px;
-	opacity: 0.9;
 	margin-top: 12px;
 	float: left;
-	box-shadow: 2px 3px 3px 0 rgba(60, 28, 148, 0.07);
+}
+#mc-embedded-subscribe {
+  float: right;
+  text-align: right;
+  margin: 10px 0;
+  position: absolute;
+  left: 0;
+  width: 100px;
+  top: 50px;
 }
 .subscriber-form form input {
     border: 0 none;
     font-size: 14px;
-    height: 100%;
     left: 0;
     padding: 10px;
-    position: absolute;
     top: 0;
     width: 100%;
 }
@@ -1041,7 +1056,7 @@ h6 {
     color: #444;
 }
 .subscriber-form form button {
-    background: #789ECF;
+    background: #636363;
     border: 0 none;
     color: #fff;
     font-weight: 500;
@@ -1261,7 +1276,7 @@ h6 {
 .item span {
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
-	color: #666;
+	color: #636363;
 }
 .contacts-info {
 	margin-top: 15px;
@@ -1370,6 +1385,15 @@ h6 {
 		display: inline;
 		text-align: center;
 	}
+
+  .navbar-nav {
+    width: 100% !important;
+    display: block;
+  }
+
+  .nav-item {
+    display: inline-block !important;
+  }
 	.tagline {
 		font-size: 34px;
 	}
@@ -1414,10 +1438,6 @@ h6 {
 	}
 	.service-box .service-item {
 		border: none;
-	}
-	.subscriber-form form {
-		width: 80%;
-		height: 44px;
 	}
 	.testimonials-item p {
 		margin-top: 20px;
@@ -1658,7 +1678,7 @@ h6 {
 	}
 	.plan {
 		width: 60%;
-		text-align: center:
+		text-align: center;
 	}
 }
 
